@@ -1,0 +1,10 @@
+Get All State
+https://cdn-api.co-vin.in/api/v2/admin/location/states
+
+
+Get District by state Id
+https://cdn-api.co-vin.in/api/v2/admin/location/districts/11
+
+
+Find Appointment by District
+https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByDistrict?district_id=512&date=31-03-2021
