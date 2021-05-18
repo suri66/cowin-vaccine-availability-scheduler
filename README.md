@@ -28,7 +28,7 @@ You need to change these according to your requirement. Check details below in o
 
 ## Demo
 
-![Cowin Vaccine Availability](https://github.com/suri66/cowin-vaccine-availability-scheduler/main/images/ezgif-2-927e310ea472.gif?raw=true)
+![Cowin Vaccine Availability](https://github.com/suri66/cowin-vaccine-availability-scheduler/blob/main/public/images/ezgif-2-927e310ea472.gif?raw=true)
 
 
 Cowin APIs can be found here https://apisetu.gov.in/public/marketplace/api/cowin
