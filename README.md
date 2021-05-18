@@ -26,5 +26,9 @@ You need to change these according to your requirement. Check details below in o
 3. Call https://cdn-api.co-vin.in/api/v2/admin/location/districts/11 (replace 11 with your state id)
 4. Copy your district id
 
+## Demo
+
+![Cowin Vaccine Availability](https://github.com/suri66/cowin-vaccine-availability-scheduler/main/images/ezgif-2-927e310ea472.gif?raw=true)
+
 
 Cowin APIs can be found here https://apisetu.gov.in/public/marketplace/api/cowin
