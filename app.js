@@ -20,7 +20,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(cors());
-
+global.appRoot = path.resolve(__dirname);
 app.use('/', indexRouter);
 checkVaccineAvailability.init(); // initiating the scheduler from here
 

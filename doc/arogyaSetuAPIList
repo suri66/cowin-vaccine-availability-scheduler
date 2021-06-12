@@ -3,10 +3,12 @@ https://cdn-api.co-vin.in/api/v2/admin/location/states
 
 
 Get District by state Id
+https://cdn-api.co-vin.in/api/v2/admin/location/districts/${state_id}
 https://cdn-api.co-vin.in/api/v2/admin/location/districts/11
 
 
 Find Appointment by District
+https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByDistrict?district_id=${district_id}&date=${date}
 https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByDistrict?district_id=512&date=31-03-2021
 
 
@@ -16,7 +18,8 @@ Important fields
 name
 block_name
 pincode
-fee_type
 available_capacity
-vaccine
+available_capacity_dose1
+available_capacity_dose2
 min_age_limit
+fee_type

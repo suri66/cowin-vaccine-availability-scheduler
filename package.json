@@ -13,7 +13,7 @@
     "hbs": "~4.0.4",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
-    "node-schedule": "^2.0.0",
+    "node-schedule": "^2.0.0",    
     "request": "^2.88.2"
   }
 }
