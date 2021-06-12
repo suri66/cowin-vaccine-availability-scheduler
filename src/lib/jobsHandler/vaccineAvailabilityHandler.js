@@ -29,7 +29,7 @@ const printData = (data) => {
   if (data && (data.sessions || []).length) {
     data.sessions = data.sessions.filter((item) => {
       return (
-        (item.available_capacity_dose1 > 0 || item.available_capacity > 0) &&
+        item.available_capacity > 0 &&
         item.min_age_limit === constant.MIN_AGE_LIMIT
       );
     });
@@ -42,7 +42,7 @@ const printData = (data) => {
         // console.log('Available Capacity', item.available_capacity);
         console.log('Available Capacity Dose1', item.available_capacity_dose1);
         console.log('Available Capacity Dose2', item.available_capacity_dose2);
-        console.log('Date', constant.APPOINTMENT_DATE);        
+        console.log('Date', constant.APPOINTMENT_DATE);
       });
     } else {
       console.log(
